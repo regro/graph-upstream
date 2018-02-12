@@ -70,6 +70,7 @@ gx = nx.read_gpickle('graph.pkl')
 try:
     for node, attrs in gx.node.items():
         attrs['new_version'] = get_latest_version(attrs, gh)
+        print(attrs['version'], attrs['new_version'])
 
 except github3.GitHubError:
     pass
