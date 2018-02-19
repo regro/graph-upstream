@@ -1,1 +1,1 @@
-# graph-upstream
+# Worker for running `02-graph_upstream.py`
